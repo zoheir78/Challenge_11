@@ -1,0 +1,62 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.characters-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  max-width: 250px;
+}
+
+.character-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.character-card h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.character-card p {
+  margin-bottom: 10px;
+}
+
+.character-card button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.character-card button:hover {
+  background-color: #2980b9;
+}
+
+.character-card button:last-child {
+  margin-right: 0;
+}
+
